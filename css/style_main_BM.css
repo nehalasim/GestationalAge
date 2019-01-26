@@ -1,0 +1,186 @@
+/* Eric Meyer's CSS Reset */
+html, div,body, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+ abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+
+.SysBodyZoom {
+		zoom:1;
+		-moz-transform:scale(1);
+		-moz-transform-origin:0 0;
+		
+
+	
+    }
+
+
+body {
+
+	
+	font-family:Arial, Helvetica, sans-serif;
+	background-color: #F2F2F2;
+vertical-align: baseline;
+position: absolute;
+    top: 0.1px;
+    left: 0px;
+    bottom: 0.1px;
+    right: 0px;
+   
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* End of Eric Meyer's CSS Reset */
+
+html {
+	height: 100%;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block;
+}
+/* End of reset */
+a:link {
+	color: #000;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color:  #000;
+}
+a:hover {
+	text-decoration: none
+	color:  #000;
+}
+a:active {
+	text-decoration: none;
+	color:  #000;
+}
+
+.Headder{
+	line-height:3vw; 
+	height:3vw; 
+	width:100%; 
+	float:left; 
+	background-color:#09F; 
+	color:#FFF; 
+	text-align:center; 
+	font-size:2vw;
+	}
+	
+.mainBody{
+	height:100%; width:100%; float:left; background-color: #88CFFF;
+	}	
+.caseID{
+margin-bottom:0.3vw;  padding:0.4vw; margin-left:4vw; height:6vw; width:91%; float:left; border-radius:0.5vw; border: solid 1px #666666;
+	}
+	
+.CalDate{
+	font-size:2vw;
+	color:#333;
+	height:3vw;
+	width:20vw;
+	float:left;
+	border-radius:0.5vw;
+	}
+
+.Result{
+	height:5vw; width:100%; float:left; margin-top:1vw; background-color:#FFF; text-align:center; font-size:3vw; line-height:5vw;
+	}	
+.button{
+	font-size:2vw;
+	color: #FFF;
+	height:4vw; 
+	float:left;
+	width:20vw;
+	border-radius:0.6vw;
+	background-color: #36C;
+	margin-left:2vw;
+	box-shadow:0.3vw 0.3vw 1vw #666666;
+	}	
+	
+legend{
+	font-size:1.5vw;
+	text-align:center;
+	}	
+	
+.ultrasound{
+	padding:0.4vw; margin-left:4vw; height:28.5vw; width:44vw; float:left; border-radius:0.5vw; border: solid 1px #666666;
+	overflow:hidden;
+	}	
+	
+.LMP{
+	padding:0.4vw; margin-left:1vw; height:28.5vw; width:44vw; float:left; border-radius:0.5vw; border: solid 1px #666666;
+	overflow:hidden;
+	}	
+	
+.result{
+	padding:0.1vw; margin-left:4vw; height:5vw; width:90vw; float:left; border-radius:0.5vw; border: solid 1px #666666; margin-top:0.2vw;
+	}	
+.buttonContainer{
+	padding:0.4vw; margin-left:4vw; height:7vw; width:90vw; float:left; border-radius:0.5vw; border: solid 1px #666666; margin-top:1vw;
+	}	
+	
+	
+.caseIDInput{
+	color:#000;
+	text-align:center;
+	font-size:2vw;
+	margin-left:34vw;
+	height:2.5vw;
+	width:20vw;
+	border-radius:0.4vw;
+	}	
+	
+.radio{
+	height:4vw;
+	width:4vw;
+	float:left; margin-left:1vw;
+	}	
+	
+	
+.resultBox{
+	margin-left:32vw;
+	border:none;
+	background-color: transparent;
+	font-size:2vw;
+	text-align:center;
+	height:2vw;
+	width:25vw;
+	color:#333;
+	}	
+	
+	
+	
